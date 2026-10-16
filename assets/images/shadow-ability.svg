@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title">
+  <title id="title">Shadow power</title>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#142537"/>
+      <stop offset=".55" stop-color="#172b3a"/>
+      <stop offset="1" stop-color="#090d14"/>
+    </linearGradient>
+    <radialGradient id="mist">
+      <stop stop-color="#64cdd8" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#2d697b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <ellipse cx="325" cy="235" rx="250" ry="150" fill="url(#mist)"/>
+  <path d="M0 302 80 260l57 31 72-77 53 61 79-86 62 84 62-48 135 83v92H0Z" fill="#0b1119"/>
+  <path d="M0 344c80-37 111 10 179-8s102-71 170-34 139 29 251-9v107H0Z" fill="#101d29"/>
+  <path d="M254 400c9-77 17-128 48-158l26-26 27 24c31 30 44 83 53 160Z" fill="#080d13"/>
+  <path d="M301 239c0-43 15-68 36-68s37 25 37 68l-14 47-23 19-25-19Z" fill="#0a1017"/>
+  <path d="M309 243q14-8 27 0m12 0q14-8 27 0" fill="none" stroke="#79e1e6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M116 351c18-47 37-59 59-50 12-31 34-33 53-8l-10 66Zm329 0c-13-48-33-60-56-48-10-32-31-35-52-12l8 60Z" fill="#080d13"/>
+  <path d="M300 331 252 279m117 54 62-69M225 309l-45-51m253 57 53-52" stroke="#69d1db" stroke-opacity=".65" stroke-width="3"/>
+  <path d="M0 373h600" stroke="#75dce5" stroke-opacity=".4"/>
+</svg>

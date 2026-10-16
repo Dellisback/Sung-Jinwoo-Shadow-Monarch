@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title">
+  <title id="title">The shadow army</title>
+  <defs>
+    <linearGradient id="night" y2="1">
+      <stop stop-color="#1a2a3c"/>
+      <stop offset="1" stop-color="#080b11"/>
+    </linearGradient>
+    <radialGradient id="moon">
+      <stop stop-color="#85dfe4" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#398b9a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#night)"/>
+  <circle cx="304" cy="157" r="136" fill="url(#moon)"/>
+  <circle cx="304" cy="157" r="45" fill="#9ae8e9" opacity=".7"/>
+  <path d="M0 288 81 225l76 52 84-92 63 77 90-102 83 109 63-48 60 44v135H0Z" fill="#111b27"/>
+  <path d="M0 324c100-35 166-9 242-18 116-15 217-48 358-9v103H0Z" fill="#080d13"/>
+  <g fill="#080b10">
+    <path d="m91 331 6-47 17-18 17 18 8 47Zm-3-51-15-22 17 9 7-23 10 22m21 14 16-22-18 8-7-22-9 22"/>
+    <path d="m174 339 7-61 22-23 22 23 9 61Zm-4-66-16-25 19 10 8-24 11 24m28 15 18-24-20 9-8-23-10 23"/>
+    <path d="m255 344 9-86 31-31 31 31 11 86Zm-5-93-22-33 27 13 11-32 14 32m39 20 24-33-28 13-11-32-14 32"/>
+    <path d="m355 339 7-61 22-23 22 23 9 61Zm-4-66-16-25 19 10 8-24 11 24m28 15 18-24-20 9-8-23-10 23"/>
+    <path d="m445 331 6-47 17-18 17 18 8 47Zm-3-51-15-22 17 9 7-23 10 22m21 14 16-22-18 8-7-22-9 22"/>
+  </g>
+  <g fill="#78dbe2"><circle cx="111" cy="300" r="2.5"/><circle cx="199" cy="296" r="3"/><circle cx="294" cy="276" r="4"/><circle cx="382" cy="296" r="3"/><circle cx="476" cy="300" r="2.5"/></g>
+  <path d="M30 365h540" stroke="#71d6df" stroke-opacity=".4"/>
+</svg>

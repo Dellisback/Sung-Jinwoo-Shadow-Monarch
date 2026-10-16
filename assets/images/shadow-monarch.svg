@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-labelledby="title">
+  <title id="title">Shadow Monarch</title>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#111c32"/>
+      <stop offset=".58" stop-color="#172a3a"/>
+      <stop offset="1" stop-color="#070b10"/>
+    </linearGradient>
+    <radialGradient id="aura">
+      <stop stop-color="#73d8e5" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#1b899c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coat" x2="1" y2="1">
+      <stop stop-color="#253648"/>
+      <stop offset=".5" stop-color="#090e16"/>
+      <stop offset="1" stop-color="#151f2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="760" fill="url(#sky)"/>
+  <circle cx="315" cy="300" r="250" fill="url(#aura)"/>
+  <path d="M0 580 120 500l75 56 106-110 88 100 91-82 120 93v203H0Z" fill="#0b1119"/>
+  <path d="M104 760c16-137 55-234 142-282l54-32 53 32c91 51 132 151 146 282Z" fill="url(#coat)"/>
+  <path d="m246 449 54 25 55-25 37 35-33 54-59 183-62-183-32-54Z" fill="#111a25"/>
+  <path d="m269 459 31 19 32-19-18 47-14 139-15-139Z" fill="#75dce5" opacity=".85"/>
+  <path d="M225 283c0-82 38-133 82-133s82 51 82 133l-27 100-55 47-55-47Z" fill="#111820"/>
+  <path d="m229 251-59-69 20 116-48-44 36 107 58 59 31-55-24-47Zm153 0 59-69-20 116 48-44-36 107-58 59-31-55 24-47Z" fill="#192738"/>
+  <path d="M256 303c17-11 34-11 51 0m17 0c17-11 34-11 51 0" fill="none" stroke="#75dce5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M42 610c41-15 58 5 70 47m424-68c-41 1-55 24-61 65M74 444c30 8 38 25 37 52m405-92c-30 8-38 25-37 52" fill="none" stroke="#33a9b4" stroke-opacity=".45" stroke-width="4"/>
+  <path d="M55 720h490" stroke="#69d4df" stroke-opacity=".45"/>
+</svg>
