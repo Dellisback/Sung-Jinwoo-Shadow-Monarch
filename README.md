@@ -1,6 +1,6 @@
 # Sung Jinwoo Website
 
-This project is a complete website dedicated to the character Sung Jinwoo, featuring multiple pages that provide information about his story, powers, and ways to contact for inquiries.
+This project is an unofficial fan-made website dedicated to Sung Jinwoo. It features information about his story and powers, a gallery, a character showcase, and ways to contact the site owner. It is not affiliated with or endorsed by the creators or rights holders of the featured series.
 
 ## Project Structure
 
@@ -22,7 +22,7 @@ sung-jinwoo-site
 
 ## Features
 
-- **Homepage**: An introduction to Sung Jinwoo with navigation links to other pages.
+- **Homepage**: An introduction to Sung Jinwoo, a gallery, and a showcase of other anime characters.
 - **About Page**: Detailed information about his background and character development.
 - **Powers Page**: Comprehensive descriptions of his powers and abilities, enhanced with visuals.
 - **Contact Page**: A form for visitors to reach out for inquiries or feedback.
