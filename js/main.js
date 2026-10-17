@@ -1,6 +1,27 @@
 // JavaScript functionality for the Sung Jinwoo website
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Play the intro once on page load, with a button to dismiss it immediately.
+    const introScreen = document.getElementById('intro-screen');
+    const introSkip = document.getElementById('intro-skip');
+    if (introScreen) {
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const dismissIntro = function() {
+            if (introScreen.classList.contains('is-leaving')) {
+                return;
+            }
+            introScreen.classList.add('is-leaving');
+            window.setTimeout(function() {
+                introScreen.remove();
+            }, 850);
+        };
+
+        if (introSkip) {
+            introSkip.addEventListener('click', dismissIntro);
+        }
+        window.setTimeout(dismissIntro, prefersReducedMotion ? 3200 : 5800);
+    }
+
     // Smooth scrolling for internal links
     const internalLinks = document.querySelectorAll('a[href^="#"]');
     internalLinks.forEach(link => {
